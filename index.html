@@ -99,9 +99,12 @@ function validateForm() {
             data: data,
             success: function(){
 							console.log('enviado');
-            	//$('#form_email').text('listo!');
+							$('[name=myForm]').fadeOut("fast").queue(function( next ) {
+							    $('.coming-soon-ready').fadeIn("fast");
+							})
             }
       });
+
 			return false;
     }
 }
@@ -162,6 +165,10 @@ function validateForm() {
         <input type="submit" value="Enviar" class="newslesubmit">
 
         </form>
+
+				<div class="coming-soon-ready">
+					<i class="fa fa-check"></i> Listo!
+				</div>
 
 				<div class="clearfix"></div>
 

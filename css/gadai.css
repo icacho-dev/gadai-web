@@ -8,3 +8,10 @@
 .coming-soon-txt {
   color: #838383;
 }
+
+.coming-soon-ready {
+    display: none;
+    color: #27AF72;
+    font-size: large;
+    text-align: center;
+}
