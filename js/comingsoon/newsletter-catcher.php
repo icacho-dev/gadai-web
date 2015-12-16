@@ -5,6 +5,6 @@ if($_POST){
     $message = 'La cuenta: '.$email.' solicita ser informada cuando el sitio web este listo.';
 
 //send email
-    mail("maindesign@gmail.com", "Avisar a - " . $email, $message);
+    mail("contacto@gadai.com.mx", "Avisar a - " . $email, $message);
 }
 ?>
