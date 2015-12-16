@@ -89,15 +89,17 @@ function validateForm() {
         alert("Dirección de correo invalida.");
         return false;
     }else {
-			var dataString = 'form_email=' + x;
-			console.log('dataString',dataString)
+			var data = {
+			    email: $("#form_email").val()
+			};
+			console.log('dataString',data)
 			$.ajax({
             type: "POST",
             url: "js/comingsoon/newsletter-catcher.php",
-            data: dataString,
+            data: data,
             success: function(){
 							console.log('enviado');
-            $('#form_email').text('listo!');
+            	//$('#form_email').text('listo!');
             }
       });
 			return false;
