@@ -89,7 +89,7 @@ function validateForm() {
         alert("Dirección de correo invalida.");
         return false;
     }else {
-			var dataString = 'text=' + x;
+			var dataString = 'message=' + x;
 			console.log('dataString',dataString)
 			$.ajax({
             type: "POST",
