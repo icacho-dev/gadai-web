@@ -86,8 +86,20 @@ function validateForm() {
     var atpos = x.indexOf("@");
     var dotpos = x.lastIndexOf(".");
     if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-        alert("Not a valid e-mail address");
+        alert("Dirección de correo invalida.");
         return false;
+    }else {
+			var dataString = 'text=' + x;
+			console.log('dataString',dataString)
+			$.ajax({
+            type: "POST",
+            url: "js/comingsoon/newsletter-catcher.php",
+            data: dataString,
+            success: function(){
+							console.log('enviado');
+            //$('.success').fadeIn(1000);
+            }
+      });
     }
 }
 </script>
