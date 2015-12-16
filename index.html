@@ -89,7 +89,7 @@ function validateForm() {
         alert("Dirección de correo invalida.");
         return false;
     }else {
-			var dataString = 'message=' + x;
+			var dataString = 'form_email=' + x;
 			console.log('dataString',dataString)
 			$.ajax({
             type: "POST",
@@ -97,7 +97,7 @@ function validateForm() {
             data: dataString,
             success: function(){
 							console.log('enviado');
-            //$('.success').fadeIn(1000);
+            $('#form_email').text('listo!');
             }
       });
 			return false;
@@ -156,7 +156,7 @@ function validateForm() {
 
         <form name="myForm" action="" onSubmit="return validateForm();" method="post">
 
-        <input type="text" name="email" class="newslesoon" value="Email ..." onFocus="if (this.value == 'Email ...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Email ...';}" >
+        <input type="text" name="email" id="form_email" class="newslesoon" value="Email ..." onFocus="if (this.value == 'Email ...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Email ...';}" >
         <input type="submit" value="Enviar" class="newslesubmit">
 
         </form>
