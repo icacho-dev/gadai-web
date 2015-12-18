@@ -5,13 +5,13 @@
 	+ logo
 	+ top navigation
 	+ search
-	
+
 2. Content
 	+ feature sections
 	+ page title
 	+ parallax backgrounds
 	+ video backgrounds
-	
+
 3. Sidebar
 	+ site search
 	+ tabs
@@ -28,11 +28,11 @@
 	+ pricing tables
 	+ framed boxes
 	+ pagination
-	
+
 4. Footer
 	+ copyrights
 	+ google map
-	
+
 --------------------------------------------------------*/
 
 
@@ -654,7 +654,7 @@
 	content: "";
 	position: absolute;
 	z-index: -1;
-	top: 0; 
+	top: 0;
 	right:44%;
 	bottom: 0;
 	left: 0;
@@ -943,7 +943,7 @@
 	padding: 7px 22px;
 	border-radius: 20px;
 	border: 1px solid #fff;
-	
+
 }
 .features_sec7 .box .tbut:hover {
 	background: none;
@@ -1560,7 +1560,7 @@
 	background-repeat:no-repeat;
 	background-position:100% 0;
 	background-position: center;
-	
+
 }
 
 
@@ -2063,7 +2063,7 @@
 	width: 100%;
 	text-align: left;
 	padding: 120px 0px;
-	background: #1e1e1e url("../images/darkgray-bg1.png");
+	background: #1e1e1e url("../images/banner/banner-1920x900-01.jpg");
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
@@ -3534,7 +3534,7 @@ ul.post_meta_links_small {
 	overflow:hidden;
 	padding-left:20px;
 	position:relative;
-	min-height:80px; 
+	min-height:80px;
 }
 .comment_content .comment_meta{
 	position:relative;
@@ -3651,7 +3651,7 @@ ul.post_meta_links_small {
 	overflow:hidden;
 	padding-left:20px;
 	position:relative;
-	min-height:80px; 
+	min-height:80px;
 }
 .comment_content .comment_meta{
 	position:relative;
@@ -4117,7 +4117,7 @@ ul.list_5 {
 
 /*
 ------------------------
- UPDATED VERSION 1.2 
+ UPDATED VERSION 1.2
 ------------------------*/
 
 .mitemnew {
@@ -4542,4 +4542,3 @@ ul.list_5 {
 	width: 70%;
 	margin: 0 auto;
 }
-

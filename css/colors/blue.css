@@ -1,8 +1,8 @@
 #logo {
-	background: url(../../images/colors/blue/logo.png) no-repeat left top;
+	background: url(../../images/logo80x50.png) no-repeat left top;
 }
 #logo2 {
-	background: url(../../images/colors/blue/logo-2.png) no-repeat left top;
+	background: url(../../images/logo80x50-2.png) no-repeat left top;
 }
 
 .header ul.nav>li>a.active {
