@@ -15,3 +15,13 @@
     font-size: large;
     text-align: center;
 }
+
+.no-svg .icon-law-01 {
+    width: 100%;
+    height: auto;
+    background-image: url(images/icon-law-01.png);
+}
+.icon-law-01 {
+    width: 100%;
+    height: auto;
+}
