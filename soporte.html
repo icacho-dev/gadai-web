@@ -370,9 +370,10 @@
 	var elemTrigger = $("#showUserpssInvalid");
 		var elem2show = $('#userpssInvalid');
 
-		$('#showUserpssInvalid').on("click",function(){
+		$('#showUserpssInvalid').on("click",function(e){
+			e.preventDefault();
 			console.log("obj");
-			elem2show.removeClass('hide').show(500);
+			elem2show.removeClass('hide');
 		});
 	</script>
 </body>
